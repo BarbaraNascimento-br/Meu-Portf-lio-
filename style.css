@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #26353a;
+    color: #ecebe4;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 5rem;
+}
+
+.cabecalho-menu-links{
+    font-family: "Intel One Mono", monospace;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fcd40f;
+    text-decoration: none;
+}
+
+.destaque-Titulo{
+    color: #fcd40f;
+}
+
+
+
+
+.apresentacao-pessoal{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+.primeiro-bloco{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.apresentacao-titulo{
+    font-size: 1.8rem;
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal
+}
+.apresentacao-paragrafo{
+    font-size: 1rem;
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.dois-botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem
+}
+.botao-link{
+    color:hsl(50, 98%, 52%);
+    border: 2px solid #fcd40f;
+    background-color: #26353a;
+    width: 50%;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 8px 0;
+    text-decoration: none;
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-items: center;
+
+
+}
+
+.imagem-apresentacao{
+    border-radius: 1rem ;
+    margin-bottom: 9.38rem;
+    margin-left: 5rem; 
+    width: 18.75rem;   
+    height: auto;  
+    margin-right: 6.25rem;
+    width: 50%;
+
+}
+
+.apresentacao-links{
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.botao-link img {
+    width: 20%;   
+    height: auto;  
+    vertical-align: middle; 
+    margin-right: 0.65rem; 
+    
+    
+}
+.botao-link:hover{
+    background-color:#fcd40f;
+    color: #26353a;
+
+}
+.rodape{
+    background-color: #fcd40f;
+    color: #26353a;
+    padding: 2%;
+    text-align: center;
+    font-family: "Intel One Mono", monospace;
+    font-size: 0.88rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    
+    .cabecalho{
+        padding: 6%;
+    }
+
+    .cabecalho-menu{
+        justify-content: center;
+    }
+
+    .primeiro-bloco{
+        width: auto;
+    }
+
+    .apresentacao-pessoal{
+        flex-direction: column-reverse;
+        padding: 5%;
+        }
+    }
